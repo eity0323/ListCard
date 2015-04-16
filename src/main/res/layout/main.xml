@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSmallImageCard"
+        android:text="Small Image Card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBigImageCard"
+        android:layout_width="wrap_content"
+        android:text="Big Image Card"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBasicImageButtonCard"
+        android:layout_width="wrap_content"
+        android:text="Basic Image Button Card"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnWelcomeCard"
+        android:layout_width="wrap_content"
+        android:text="Welcome Card"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBasicListCard"
+        android:layout_width="wrap_content"
+        android:text="Basic List Card"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btnBigImageButtonCard"
+        android:text="Big Image Button Card"
+        android:layout_height="wrap_content" />
+</LinearLayout>
